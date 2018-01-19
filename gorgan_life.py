@@ -1,5 +1,3 @@
-# -*- coding=cp1251 -*-
-# удачи мне
 class Critter(object):
     """ZooKeeper"""
     total = 0
@@ -77,20 +75,20 @@ def main():
     4 - secret (inside)
     """)
         choice = input("Your choice: ")
-
-        # ВЫХОД
+        
+        
         if choice == "0":
             print("Goodbuy.")
-        # беседа со зверюшкой
+
         elif choice == "1":
             crit.talk()
-        # кормление зверюшки
+
         elif choice == "2":
             crit.eat()
-        # игра со зверюшкой
+
         elif choice == "3":
             crit.play()
-        # непонятный пользовательский ввод
+
         elif choice == "4":
             print(crit.name, crit.hunger,  crit.boredom)
         else:
