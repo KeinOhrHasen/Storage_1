@@ -75,8 +75,8 @@ def main():
     4 - secret (inside)
     """)
         choice = input("Your choice: ")
-
-        # ÂÛÕÎÄ
+        
+        
         if choice == "0":
             print("Goodbuy.")
 
