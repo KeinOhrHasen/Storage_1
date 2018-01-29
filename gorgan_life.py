@@ -1,5 +1,5 @@
 class Critter(object):
-    """ZooKeeper"""
+    """ZooKeeper game. Class for critter objects"""
     total = 0
     
     def __init__(self, name, boredom = 2, hunger = 0 ):
@@ -93,6 +93,10 @@ def main():
             print(crit.name, crit.hunger,  crit.boredom)
         else:
             print( "sorry but... ", choice)
-main()
-input(" ")
+
+
+            
+if __name__ == "__main__":
+    main()
+    input(" ")
     
